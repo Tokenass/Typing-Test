@@ -1,8 +1,19 @@
 import React from "react";
+import Nav from "../Nav/Nav";
+
+import "./App.css"
 
 const App = () => {
     return (
-        <h1>Hey There!</h1>
+        <div className="app">
+            {/* Nav Section */}
+            <Nav />
+            {/* Landing Page */}
+
+            {/* Challenge Section */}
+
+            {/* Footer */}
+        </div>
     )
 }
 
