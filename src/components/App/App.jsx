@@ -1,4 +1,6 @@
 import React from "react";
+
+import Landing from "../Landing/Landing";
 import Nav from "../Nav/Nav";
 
 import "./App.css"
@@ -8,7 +10,9 @@ const App = () => {
         <div className="app">
             {/* Nav Section */}
             <Nav />
+
             {/* Landing Page */}
+            <Landing />
 
             {/* Challenge Section */}
 
